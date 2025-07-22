@@ -1,0 +1,55 @@
+/* 💡 Typography */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  color: #222;
+}
+
+/* 🎨 Background and Layout */
+.stApp {
+  background-image: url('../assets/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  padding: 1rem;
+}
+
+/* 🟦 Container Styling */
+.block-container {
+  background-color: rgba(255, 255, 255, 0.88);
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  margin-top: 1rem;
+}
+
+/* 📊 Headers */
+h1, h2, h3 {
+  color: #005B96;
+  font-weight: 600;
+}
+
+/* ✅ Custom buttons */
+button[kind="primary"] {
+  background-color: #0072E3;
+  border-radius: 10px;
+  font-weight: bold;
+  color: white;
+}
+
+/* 📝 Markdown formatting */
+.markdown-text-container {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* ✅ Responsive tweaks */
+@media (max-width: 768px) {
+  .block-container {
+    padding: 1rem;
+  }
+  h1 {
+    font-size: 1.8rem;
+  }
+}

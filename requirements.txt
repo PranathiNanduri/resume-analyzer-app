@@ -1,0 +1,29 @@
+# --- Web UI ---
+streamlit==1.33.0
+streamlit-extras==0.7.1
+
+# --- NLP & Parsing ---
+spacy
+python-docx==1.1.0
+pdfplumber
+nltk
+
+# --- ML & Utilities ---
+scikit-learn
+pandas==2.2.2
+numpy==1.26.4
+
+# --- Optional: ChatGPT Feedback ---
+openai
+tiktoken
+
+# --- Others ---
+fpdf==1.7.2     # for generating sample PDFs
+PyPDF2
+beautifulsoup4==4.12.3
+regex==2024.5.15
+
+
+
+
+

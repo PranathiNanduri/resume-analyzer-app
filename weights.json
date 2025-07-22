@@ -1,0 +1,14 @@
+{
+  "must_have": [
+    "python", "sql", "machine learning", "data analysis", "statistics",
+    "deep learning", "nlp", "data cleaning", "aws", "azure", "java",
+    "c++", "communication", "git", "linux", "algorithms", "problem solving"
+  ],
+  "good_to_have": [
+    "excel", "tableau", "power bi", "r", "spark", "hadoop", "cv",
+    "snowflake", "docker", "kubernetes", "flask", "django",
+    "data visualization", "a/b testing", "bash", "network protocols"
+  ],
+  "must_have_weight": 0.7,
+  "good_to_have_weight": 0.3
+}

@@ -1,0 +1,23 @@
+[theme]
+primaryColor = "#0072E3"
+backgroundColor = "#F0F4F8"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#222222"
+font = "sans serif"
+
+[server]
+headless = true
+enableCORS = false
+
+[client]
+showSidebarNavigation = true
+
+[general]
+email = "nanduripranathi12@gmail.com"
+
+[ui]
+pageTitle = "Resume Analyzer Pro"
+pageIcon = "🧠"
+
+[layout]
+wideMode = true
